@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import Card from './components/Card';
 import './components/App.css'
+import { FiInstagram, FiPhoneForwarded } from 'react-icons/fi'
+import { AiOutlineMail } from "react-icons/ai";
 
 const ProcuraDeFornecedor = () => {
   const [consumoMensal, setConsumoMensal] = useState('');
@@ -94,8 +96,30 @@ const ProcuraDeFornecedor = () => {
           </div>
         )
       }
-    </div >
+      <footer style={{ textAlign: 'center', position: 'fixed', bottom: 0, width: '100%', backgroundColor: 'white', padding: '3px 0' }}>
+        <div>
+          <p>Entre em contato:</p>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
+            <FiPhoneForwarded size={20} color='black' />
+            <p style={{ margin: '0', marginLeft: '5px' }}>+55 (11) 93409-0834</p>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center', marginRight: '20px' }}>
+            <FiInstagram size={20} color='black' />
+            <p style={{ margin: '0', marginLeft: '5px' }}>clarkeenergia</p>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <AiOutlineMail size={20} color='black' />
+            <p style={{ margin: '0', marginLeft: '5px' }}>contato@clarke.com.br</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
   );
+
+
 };
 
 export default ProcuraDeFornecedor;
