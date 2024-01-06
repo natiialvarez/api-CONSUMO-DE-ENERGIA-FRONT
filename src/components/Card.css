@@ -1,0 +1,49 @@
+.container-card {
+    background-color: rgba(223, 151, 43, 0.719);
+    border-radius: 5px;
+    width: 140px;
+    border: 1px solid black;
+    height: 210px;
+    font-size: 14px;
+    margin-bottom: 1px;
+    display: inline-block;
+    margin: 5px;
+
+}
+
+.nome-fornecedor {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1px;
+}
+
+.custo-fornecedor {
+    color: white;
+    text-align: center;
+}
+
+img {
+    width: 30px;
+}
+
+.estado-fornecedor {
+    color: white;
+    text-align: center;
+}
+
+.limite-fornecedor {
+    color: white;
+    text-align: center;
+}
+
+.clientes-fornecedor {
+    color: white;
+    text-align: center;
+}
+
+.nota-fornecedor {
+    color: white;
+    text-align: center;
+}
