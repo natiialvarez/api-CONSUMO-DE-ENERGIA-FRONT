@@ -4,6 +4,7 @@
 Esse é o frontend da API (https://github.com/natiialvarez/clarkechallenge)
 
 Foi meu primeiro contato com o React, css, e o html, em resumo com o proprio FrontEnd.
+
 Tentei organizar as div`s de acordo com o que cada uma era, porem tive algumas dificuldades em separa-las de forma organizada, então acabei deixando de uma forma que fosse 'ok', e não atrapalhasse o funcionamento do codigo.
 
 
