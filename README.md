@@ -1,8 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# FrontEnd da API de Cosumo de Energia 🏦
 
-Currently, two official plugins are available:
+Esse é o frontend da API (https://github.com/natiialvarez/clarkechallenge)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Foi meu primeiro contato com o React, css, e o html, em resumo com o proprio FrontEnd.
+
+
+
+
+## Funcionalidades
+
+- Busca de Fornecedores
+## Rodando o Front
+
+Utilizar o link do deploy:
+https://comfy-nasturtium-7a7a07.netlify.app/ 
+
+Você pode acessa-la usando os seguintes comandos no terminal, caso o deploy não esteja em funcionamento:
+
+```bash
+npm install
+  npm run dev
+```
+E clicar no link disponibilizado pelo react.
+
+
+
+
+
+
+## Linguagens utilizadas
+- React
+- css
+- html
+## Autores
+
+- [@natiialvarez](https://github.com/natiialvarez)
+
