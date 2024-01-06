@@ -70,7 +70,7 @@ const ProcuraDeFornecedor = () => {
             type="text"
             value={consumoMensal}
             onChange={handleConsumoMensalChange}
-            placeholder="Consumo Mensal"
+            placeholder="Consumo Mensal. Ex: 300"
             required
           />
           <button
@@ -82,7 +82,7 @@ const ProcuraDeFornecedor = () => {
         </div>
       </div>
 
-      {mensagem && fornecedoresEncontrados.length === 0 && <p>{mensagem}</p>}
+      {mensagem && fornecedoresEncontrados.length === 0 && <p className='mensagem'>{mensagem}</p>}
       {
         fornecedoresEncontrados.length > 0 && (
           <div className="fornecedores">

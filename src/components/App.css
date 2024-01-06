@@ -19,7 +19,8 @@
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 15px
+    font-size: 15px;
+    box-shadow: 30px;
 }
 
 .consumo {
@@ -46,4 +47,18 @@
     text-align: center;
     margin: 0 auto;
     flex-direction: column;
+}
+
+.mensagem {
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.658);
+    border-radius: 5px;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    display: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
