@@ -4,9 +4,7 @@ import Card from './components/Card';
 import './components/App.css'
 
 const ProcuraDeFornecedor = () => {
-  const [nome, setNome] = useState('');
   const [consumoMensal, setConsumoMensal] = useState('');
-  const [estado, setEstado] = useState('');
   const [fornecedoresEncontrados, setFornecedoresEncontrados] = useState([]);
   const [mensagem, setMensagem] = useState('');
 
